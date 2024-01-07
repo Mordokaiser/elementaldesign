@@ -12,9 +12,9 @@
         <div class="footer-item">
             <h5>LEGAL:</h5>
             <ul>
-                <li>Aviso Legal</li>
-                <li>Políticas de Privacidad</li>
-                <li>Políticas de Cookies</li>
+                <li class="text-start ">Aviso Legal</li>
+                <li class="text-start ">Políticas de Privacidad</li>
+                <li class="text-start ">Políticas de Cookies</li>
             </ul>
         </div>
         <div class="footer-item encuentranos">
@@ -24,6 +24,12 @@
                 <img :src="instagramIconUrl" alt="User Icon" class="network-icon">
                 <img :src="youtubeIconUrl" alt="User Icon" class="network-icon">
             </div>
+            <br><br>
+        </div>
+    </div>
+    <div class="d-flex justify-content-around align-items-center  fixed-bottom" >
+        <div class="footer-item">
+            <p class="copyright text-start ">©Equipo de desarrollo de Elemental Design</p>
         </div>
     </div>
 </template>
@@ -73,5 +79,8 @@ const youtubeIconUrl = '/images/icons/youtube.svg';
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
+}
+.copyright{
+    color: white;
 }
 </style>
