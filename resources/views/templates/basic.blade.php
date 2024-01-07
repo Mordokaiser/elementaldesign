@@ -7,6 +7,9 @@
     @yield('head')
 </head>
 <body>
+    
     @yield('body')
+
+    @vite('resources/js/app.js')
 </body>
 </html>
