@@ -1,6 +1,6 @@
 @extends('templates.basic')
 @section('head')
-<title>home</title>
+<title>Elemental Design</title>
 @endsection
 @section('body')
 <div id="app"></div>
