@@ -1,7 +1,6 @@
 <template>
     <navbarComponentVue />
-    <h1>Hola este es el template principal</h1>
-    <footerComponentVue></footerComponentVue>
+    <footerComponentVue />
 </template>
 
 <script setup>
