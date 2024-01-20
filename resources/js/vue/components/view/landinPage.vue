@@ -3,11 +3,8 @@
     </principalLayaout>
     <landingPage1Vue/>
     <landingPage2Vue/>
-    <br>
     <landingPage3Vue/>
-    <br>
     <landingPage4Vue/>
-    <br>
     <landingPage5Vue/>
     
 </template>

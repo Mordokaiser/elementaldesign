@@ -25,9 +25,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 800px;
     width: 100%;
-    justify-content: center;
+    
     align-items: center;
     background-blend-mode: color;
     background-color: rgba(0, 0, 0, 0.5);
