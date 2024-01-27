@@ -1,6 +1,6 @@
 <template>
     <div class="row poto2">
-        <p class="textSeba3">¿quienes <spam>SOMOS?</spam>
+        <p class="RobotoFont2 title">¿quienes <spam>SOMOS?</spam>
         </p>
         <div class="row">
             <!--texto-->
@@ -21,24 +21,6 @@
 const somos = '/images/landing/chanteibur.png';
 </script>
 <style>
-.textSeba3 {
-    padding-top: 50px;
-    font-family: 'Inter';
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-
-}
-
-.textSeba3 spam {
-    background-color: rgb(0, 141, 213);
-    font-family: 'inter';
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-}
 
 .poto2 {
     text-align: center;

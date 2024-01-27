@@ -1,16 +1,16 @@
 <template>
     <!-- grilla parte 3-->
     <div class="row suscripciones">
-        <p class="textSeba2">CONSULTA LAS <span>SUSCRIPCIONES</span></p>
+        <p class="RobotoFont title fix3">CONSULTA LAS <spam>SUSCRIPCIONES</spam></p>
         <div class="col d-flex justify-content-evenly sub-box">
 
-            <div class="sub-box-in">1 mes</div>
+            <div class="sub-box-in FugazOneFont">1<br> mes</div>
         </div>
         <div class="col d-flex justify-content-evenly sub-box">
-            <div class=" sub-box-in">2 meses</div>
+            <div class=" sub-box-in FugazOneFont">2 <br> meses</div>
         </div>
         <div class="col d-flex justify-content-evenly sub-box">
-            <div class="sub-box-in">1 año</div>
+            <div class="sub-box-in FugazOneFont">1<br> año</div>
         </div>
     </div>
 </template>
@@ -19,33 +19,19 @@
 </script>
 
 <style>
-.textSeba2 {
-    padding-top: 3%;
-    padding-bottom: 1%;
-    font-family: 'Inter';
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-}
+.fix3 {
+    padding-bottom: 55px;
 
-.textSeba2 span {
-    background-color: rgb(0, 141, 213);
-    font-family: 'inter';
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
 }
-
 .suscripciones {
+    align-items: center;
+    align-content: center;
     margin-inline: 10%;
     height: 800px;
 }
 
 .sub-box {
-    
+
     align-content: center;
     background-color: rgb(205, 205, 205);
     margin-left: 5%;
@@ -64,4 +50,5 @@
     font-size: 90px;
     text-align: center;
 
-}</style>
+}
+</style>

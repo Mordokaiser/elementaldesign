@@ -11,6 +11,9 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@fontsource/fugaz-one": "^5.0.18",
+        "@fontsource/inter": "^5.0.16",
+        "@fontsource/roboto": "^5.0.8",
         "@vitejs/plugin-vue": "^4.5.0",
         "bootstrap": "^5.3.2",
         "vue": "^3.2.36"

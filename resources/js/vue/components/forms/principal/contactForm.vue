@@ -7,18 +7,18 @@
             <input type="email" class="form-control" id="email" placeholder="Email">
         </div>
         <div class="form-group">
-            <textarea class="form-control" id="message" placeholder="Mensaje"> </textarea>
+            <textarea class="form-control" id="message" placeholder="Mensaje"></textarea>
         </div>
         <div class="button-form">
             <button type="submit" class="button button-send">Enviar</button>
         </div>
-
     </form>
 </template>
-<script setup>
 
+<script setup>
 </script>
-<style >
+
+<style>
 form {
     width: 650px;
     margin: 0 auto;
@@ -30,11 +30,9 @@ form {
 }
 
 .form-control {
-    background-color:
-    rgba(217, 217, 217, 1);
+    background-color: rgba(217, 217, 217, 1);
     border-color: black;
     border-radius: 7px;
-    
 }
 
 .form-control::placeholder {
@@ -42,13 +40,12 @@ form {
 }
 
 #message {
-    height: 150px;
+    height: 250px;
     resize: none;
 }
 
 #message::placeholder {
     text-align: start;
-    vertical-align: bottom;
 }
 
 .button-form {
@@ -68,4 +65,5 @@ form {
     width: 180px;
     height: 50px;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
-}</style>
+}
+</style>

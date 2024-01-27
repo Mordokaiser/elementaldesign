@@ -1,7 +1,7 @@
 <template>
     <div class="contenidoFinal">
         <div class="row">
-            <p class="textSeba">Envianos <spam>UN Mensaje</spam>
+            <p class="RobotoFont title">Envianos <spam>UN Mensaje</spam>
             </p>
         </div>
         <div class="row">
@@ -29,6 +29,14 @@ import contactForm from '../../forms/principal/contactForm.vue';
 
 .fake-footer {
     height: 220px;
-
 }
+.title{
+    padding-top: 55px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Inter';
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
 </style>
