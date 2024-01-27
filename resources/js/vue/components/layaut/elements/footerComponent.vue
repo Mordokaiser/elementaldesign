@@ -1,5 +1,6 @@
 <template>
-    <div class="d-flex justify-content-around align-items-center  fixed-bottom" id="footer-flex-container">
+    <!--
+    <div class="d-flex justify-content-around h-25 align-items-center " id="footer-flex-container">
         <div class="footer-item">
             <a class="navbar-brand ms-auto" href="#">
                 <img :src="logoUrl" alt="Logo" class="footer-img">
@@ -27,9 +28,40 @@
             <br><br>
         </div>
     </div>
-    <div class="d-flex justify-content-around align-items-center  fixed-bottom" >
+    <div class="d-flex justify-content-around align-items-center ">
         <div class="footer-item">
             <p class="copyright text-start ">©Equipo de desarrollo de Elemental Design</p>
+        </div>
+    </div>
+-->
+    <div class="text-center" id="footer-flex-container">
+        <div class="row row-cols-3">
+            <div class="footer-item">
+                <a class="navbar-brand ms-auto" href="#">
+                    <img :src="logoUrl" alt="Logo" class="footer-img">
+                </a>
+                <br>
+                <p class="text-start">Somos un pequeño grupo de desarrolladores que tiene como objetivo ayudar a empresas
+                    pequeñas a desarrollar un
+                    sitio web para su negocio</p>
+            </div>
+            <div class="footer-item">
+                <h5>LEGAL:</h5>
+                <ul>
+                    <li class="text-start ">Aviso Legal</li>
+                    <li class="text-start ">Políticas de Privacidad</li>
+                    <li class="text-start ">Políticas de Cookies</li>
+                </ul>
+            </div>
+            <div class="footer-item encuentranos">
+                <h5>ENCUENTRANOS EN:</h5>
+                <div class="social-icon">
+                    <img :src="facebookIconUrl" alt="User Icon" class="network-icon">
+                    <img :src="instagramIconUrl" alt="User Icon" class="network-icon">
+                    <img :src="youtubeIconUrl" alt="User Icon" class="network-icon">
+                </div>
+                <br><br>
+            </div>
         </div>
     </div>
 </template>
@@ -43,15 +75,15 @@ const youtubeIconUrl = '/images/icons/youtube.svg';
 
 <style>
 #footer-flex-container {
-    height: 220px;
+    height: 15%;
     background-color: rgb(0, 0, 0);
 }
 
 .footer-item {
-    width: 350px;
-    max-height: 180px;
+    padding: 2.5%;
+    width: 33%;
     color: aliceblue;
-    text-align: justify;
+    text-align: center;
 }
 
 .footer-item .encuentranos {
@@ -80,7 +112,8 @@ const youtubeIconUrl = '/images/icons/youtube.svg';
     letter-spacing: 0em;
     text-align: left;
 }
-.copyright{
+
+.copyright {
     color: white;
 }
 </style>

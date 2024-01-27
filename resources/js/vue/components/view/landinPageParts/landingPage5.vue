@@ -1,9 +1,17 @@
 <template>
     <div class="contenidoFinal">
-        <contactForm></contactForm>
+        <div class="row">
+            <p class="textSeba">Envianos <spam>UN Mensaje</spam>
+            </p>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center ">
+                <contactForm></contactForm>
+            </div>
+        </div>
     </div>
 
-    <div class="fake-footer"> <!--parche del footer xD--></div>
+    
 </template>
 <script setup>
 //importar formulario de contacto
@@ -16,10 +24,10 @@ import contactForm from '../../forms/principal/contactForm.vue';
     background-size: cover;
     background-position: center;
     height: 800px;
-    display: flex;
-    justify-content: center;
+
 }
-.fake-footer{
+
+.fake-footer {
     height: 220px;
 
 }

@@ -1,5 +1,6 @@
 <template>
     <navbarComponentVue />
+    <slot></slot> 
     <footerComponentVue />
 </template>
 

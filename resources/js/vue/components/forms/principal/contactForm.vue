@@ -1,22 +1,71 @@
 <template>
     <form>
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <input type="text" class="form-control" id="name" placeholder="Nombre Completo">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="email" class="form-control" id="email" placeholder="Email">
         </div>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="form-group">
+            <textarea class="form-control" id="message" placeholder="Mensaje"> </textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <div class="button-form">
+            <button type="submit" class="button button-send">Enviar</button>
+        </div>
+
     </form>
 </template>
 <script setup>
 
 </script>
+<style >
+form {
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-control {
+    background-color:
+    rgba(217, 217, 217, 1);
+    border-color: black;
+    border-radius: 7px;
+    
+}
+
+.form-control::placeholder {
+    color: rgba(0, 141, 213, 0.7);
+}
+
+#message {
+    height: 150px;
+    resize: none;
+}
+
+#message::placeholder {
+    text-align: start;
+    vertical-align: bottom;
+}
+
+.button-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-send {
+    background-color: rgba(0, 141, 213, 0.7);
+    border-color: transparent;
+    border-radius: 14px;
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}</style>

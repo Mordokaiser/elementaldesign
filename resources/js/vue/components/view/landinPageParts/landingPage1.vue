@@ -23,10 +23,10 @@ const background1 = '/images/backgrounds/fondoPC.png';
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .textSeba {
-  padding-top: 320px;
   font-family: 'Inter';
   font-weight: 700;
   font-size: 15px;
