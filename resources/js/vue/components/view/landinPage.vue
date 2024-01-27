@@ -2,8 +2,9 @@
     <principalLayaout>
         <landingPage1Vue />
         <landingPage2Vue />
+        
         <landingPage3Vue />
-        <landingPage4Vue />
+       <landingPage4Vue />
         <landingPage5Vue />
     </principalLayaout>
 </template>

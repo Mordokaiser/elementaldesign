@@ -6,11 +6,15 @@
                 <img :src="logoUrl" class="logo">
             </a>
 
-            <!-- Elementos de menú a la izquierda -->
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Lista desplegable desde un icono -->
+            <!-- Botón de hamburguesa para dispositivos móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <ul class="navbar-nav ms-auto">
+            <!-- Elementos de menú -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Servicios</a>
                     </li>
@@ -25,16 +29,16 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
+                           data-bs-toggle="dropdown" aria-expanded="false">
                             <img :src="userIconUrl" alt="User Icon" class="userIcon">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">nombre xD</a></li>
-                            <li><a class="dropdown-item" href="#">iniciar sesion</a></li>
+                            <li><a class="dropdown-item" href="#">iniciar sesión</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">cerrar sesion</a></li>
+                            <li><a class="dropdown-item" href="#">cerrar sesión</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -42,15 +46,16 @@
         </div>
     </nav>
 </template>
+
 <script setup>
-//importar imagenes
+// Importar imágenes
 const logoUrl = '/images/logos/Logo avanzado para fondos oscuros v2 1.png';
 const userIconUrl = '/images/icons/userWhite.svg';
 </script>
+
 <style>
 .navbar-dark .navbar-nav .nav-link {
     color: white;
-    /* Color del texto a blanco */
 }
 
 .logo {
@@ -63,8 +68,7 @@ const userIconUrl = '/images/icons/userWhite.svg';
     height: 25px;
 }
 
-.dropdown-toggle::after  {
+.dropdown-toggle::after {
     display: none;
 }
-
 </style>
