@@ -29,7 +29,7 @@ const diseno = '/images/landing/servicioDiseno.png';
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    max-height: 800px;
     
     align-items: center;
     background-blend-mode: color;
@@ -37,7 +37,11 @@ const diseno = '/images/landing/servicioDiseno.png';
     /* Cambia el valor de transparencia según tus necesidades */
 }
 .imagenServicio{
-    max-width: 240px;
-    max-height: 240px;
+    width: 100%;
+    height: 100%;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 480px;
+    max-height: 480px;
 }
 </style>
