@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
             <!-- Logo a la derecha -->
-            <a class="navbar-brand ms-auto" href="#">
+            <a class="navbar-brand ms-auto" href="/">
                 <img :src="logoUrl" class="logo">
             </a>
 
@@ -34,7 +34,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">nombre xD</a></li>
-                            <li><a class="dropdown-item" href="#">iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="/login">iniciar sesión</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>

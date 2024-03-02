@@ -3,7 +3,6 @@
 <title>Elemental Design</title>
 @endsection
 @section('body')
-
-<div id="app"></div>
+<div id="login"></div>
 @vite('resources/js/app.js')
 @endsection

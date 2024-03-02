@@ -16,3 +16,20 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/login', function () {
+    return view('Auth.login');
+});
+
+
+
+//rutas protegidas con auth
+ Route::group(['middleware' => ['auth:sanctum']], function () {
+    //cambiar
+     Route::get('/dashboard', function () {
+        return view('dashboard');
+     });
+     Route::get('/logout', [AuthController::class,'logout'])->name('logout');
+ });
+
+// //rutas de autenticacion
+ Route::post('/login', [AuthController::class,'login']);

@@ -39,8 +39,8 @@ const diseno = '/images/landing/servicioDiseno.png';
 .imagenServicio{
     width: 100%;
     height: 100%;
-    min-width: 80px;
-    min-height: 80px;
+    min-width: 50px;
+    min-height: 50px;
     max-width: 480px;
     max-height: 480px;
 }
