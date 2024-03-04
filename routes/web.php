@@ -19,10 +19,14 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('Auth.login');
 });
+Route::get('/register', function () {
+    return view('Auth.register');
+});
 
 
 
 //rutas protegidas con auth
+/*
  Route::group(['middleware' => ['auth:sanctum']], function () {
     //cambiar
      Route::get('/dashboard', function () {
@@ -30,6 +34,5 @@ Route::get('/login', function () {
      });
      Route::get('/logout', [AuthController::class,'logout'])->name('logout');
  });
+*/
 
-// //rutas de autenticacion
- Route::post('/login', [AuthController::class,'login']);

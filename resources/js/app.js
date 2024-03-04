@@ -8,4 +8,9 @@ const app = createApp (App)
 import AppLogin from"./vue/components/login/loginComponent.vue"
 const login = createApp (AppLogin)
  login.mount("#login")
+
+import AppRegister from"./vue/components/login/registerComponent.vue"
+const register = createApp (AppRegister)
+register.mount("#register")
+
  
